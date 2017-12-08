@@ -59,6 +59,7 @@ int fordFulkerson(int graph[V][V], int s, int t)
 
 int main()
 {
+    ios_base::sync_with_stdio(false);//Make cin and cout Run Faster... :)
     while(true) {
         int n,e,m,t,c;cin>>n>>e>>m>>t>>c;
         if(n == 0 and e == 0 and m == 0 and t == 0 and c == 0 ){
